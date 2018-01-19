@@ -1,0 +1,43 @@
+/* MIT license - Andrew Fakhry*/
+body {
+  text-align: center;
+  background-color: #f2f2f2;
+  font-family: cursive, fantasy, sans-serif;
+}
+
+span {
+  padding-left: 25px;
+}
+
+h1 {
+  font-family: 'Monoton', cursive;
+  font-size: 50px;
+}
+
+fieldset {
+  padding: 20px;
+  margin: auto 40px;
+}
+
+.inline {
+  display: inline-block;
+}
+
+.fieldset {
+  margin-top: 20px
+}
+
+table {
+    border-collapse: collapse;
+    margin: auto;
+}
+
+tr, td {
+    border: 1px solid #9b9b9b;
+    /* padding: 30px; */
+}
+
+.inputImage {
+  cursor: pointer;
+  display: inline-block;
+}
