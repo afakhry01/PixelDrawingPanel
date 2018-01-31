@@ -1,6 +1,6 @@
-# Clock
+# Pixels Drawing Panel
 
-[![screenshot](docs/pixelPanelScreenshot.png)
+![screenshot](docs/pixelPanelScreenshot.png)
 
 A pixel drawing panel that you can use to do nice drawings and save them as pictures. You may also change the drawing panel size and use different colors.
 
