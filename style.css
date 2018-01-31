@@ -17,10 +17,7 @@ h1 {
 fieldset {
   padding: 20px;
   margin: auto 40px;
-}
-
-.inline {
-  display: inline-block;
+  overflow: auto;
 }
 
 .fieldset {
@@ -37,7 +34,7 @@ tr, td {
     /* padding: 30px; */
 }
 
-.inputImage {
+.input-image {
   cursor: pointer;
-  display: inline-block;
+  vertical-align: middle;
 }

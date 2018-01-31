@@ -26,19 +26,13 @@ $(document).ready(function(){
   //
 
   $("input[alt='save-image']").click(function() {
-      html2canvas($("table"), {
-          onrendered: function(canvas) {
-              //document.body.appendChild(canvas);
-
-              // Convert and download as image
-              // Canvas2Image.saveAsPNG(canvas);
-              // $("table").append(canvas);
-              this.href = canvas.toDataURL();
-              this.download = "mypainting.png";
-              //document.body.appendChild(link);
-              // Clean up
-              //document.body.removeChild(canvas);
-          }
+      html2canvas($("table").get(0), {
+        onrendered: function (canvas) {
+          var a = document.createElement('a');
+          a.href = canvas.toDataURL("image/png");
+          a.download = 'Pixel Drawing.png';
+          a.click();
+        }
       });
   });
   $('body').on('click',"input[alt='clean-workspace']", function(){
